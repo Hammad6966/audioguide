@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speech to Text Module</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #dfdfbd;
+    }
+
+    .module-container {
+      max-width: 1200px;
+      margin: 50px auto;
+      background-color: #b9b99c;
+      padding: 20px;
+      border-radius: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    .module-header {
+      background-color: #dbdd59;
+      color: #fff;
+      padding: 10px;
+      border-radius: 10px 10px 0 0;
+      text-align: center;
+    }
+
+    .notes-container {
+      background-color: #E2E48DA1;
+      padding: 15px;
+      border-radius: 0 0 4px 4px;
+      margin-top: 10px;
+      min-height: 200px;
+    }
+
+    #mic-icon-container {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #b2b388; /* Match the background color of the box */
+      padding: 20px; /* Adjust padding as needed */
+      border-radius: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #mic-icon {
+      width: 116.97px;
+      height: 110.95px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="module-container">
+    <div class="module-header">
+      <h2>Speech to Text</h2>
+    </div>
+    <div class="notes-container" id="notes-container">
+      Speak now........
+    </div>
+  </div>
+
+  <div id="mic-icon-container">
+    <img src="9025831_microphone_icon.png" alt="Microphone Icon" id="mic-icon">
+  </div>
+
+  <!-- Add your JavaScript code for speech-to-text functionality here -->
+  <script>
+    // Your JavaScript code for speech-to-text goes here
+  </script>
+</body>
+
+</html>
+
+
